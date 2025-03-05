@@ -1,0 +1,28 @@
+
+body{
+    background:rgba(228, 242, 252, 0.521)
+}
+
+#tags{
+    background-color: rgb(185, 242, 252);
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+#logOut{
+    display: none;
+}
+
+#plusPost{
+    font-size: 100px;
+    position: fixed;
+    right: 15%;
+    top: 80%;
+    cursor: pointer;
+}
+
+#plusPost:hover{
+    scale: 1.1;
+    transition: 500ms;    
+}
